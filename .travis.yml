@@ -121,3 +121,7 @@ after_script:
 
 notifications:
   email: false
+
+cache:
+  directories:
+    - $HOME/.composer/cache/files
