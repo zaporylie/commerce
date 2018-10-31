@@ -139,7 +139,7 @@ script:
   - phpcs --standard=phpcs.xml tests -s
   - phpcs --standard=phpcs.xml commerce.module
 
-  - drupal-ti script
+  # - drupal-ti script
   - drupal-ti --include ".travis-simpletest-js.sh"
 
 after_script:
