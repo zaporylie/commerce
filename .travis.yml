@@ -144,6 +144,7 @@ script:
 
 after_script:
   - drupal-ti after_script
+  - cat /tmp/chromedriver.log
 
 notifications:
   email: false
